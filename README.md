@@ -18,3 +18,14 @@ python3 main.py --gpu=1 --seed=1000 --epoch=600 --length-dna=100 --ratio=0.01 --
 ```
 python3 standalone_test.py --model-path='./results/1000_THEA-Code/' --length-dna=100 --gpu=0
 ```
+
+## Citation
+
+```
+@inproceedings{guo2025disturbance,
+  author    = {Guo, Alan JX and Wei, Mengyi and Dai, Yufan and Wei, Yali and Zhang, Pengchen},
+  title     = {{Disturbance-based Discretization, Differentiable IDS Channel, and an IDS-Correcting Code for DNA-based Storage}},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  year      = {2026},
+}
+```
