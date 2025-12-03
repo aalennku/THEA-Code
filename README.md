@@ -1,8 +1,8 @@
-##Train the differential IDS channel in advance. 
+## Train the differential IDS channel in advance. 
 
-**The user may wanna use the pretrained file:** `ids_channel_dl_embsize512_numlayer1_nhead4_150-200.pth`
+**The user may want to use the pretrained file:** `ids_channel_dl_embsize512_numlayer1_nhead4_150-200.pth`
 
-Readers who wanna train their own differential IDS channel, can modify the parameters as they need in file "train_ids_channel_dl.py", and execute:
+Readers who want to train their own differential IDS channel, can modify the parameters as they need in file "train_ids_channel_dl.py", and execute:
 
 ```
 python3 train_ids_channel_dl.py
